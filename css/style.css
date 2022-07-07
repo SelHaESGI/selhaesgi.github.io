@@ -54,7 +54,7 @@ header ul li a.active:hover {
     justify-content: center;
     position: fixed;
     right: 5em;
-    top: 44em;
+    top: 38em;
     z-index: 10;
     text-align: right;
     transform-origin: bottom right;
@@ -67,7 +67,7 @@ header ul li a.active:hover {
     margin-left: 20px
   }
   header ul li a {
-    font-size: 1.8em;
+    font-size: 1.7em;
     text-decoration: none;
     padding: 6px 15px;
     color: #fff;
