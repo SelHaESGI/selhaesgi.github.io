@@ -663,7 +663,7 @@ header ul li a.active:hover {
     position: absolute;
     color: #fff;
     white-space: nowrap;
-    font-size: 10vw;
+    font-size: 14vw;
     z-index: 9;
     right: -350px;
     -webkit-user-select: none;
@@ -677,7 +677,7 @@ header ul li a.active:hover {
     padding: 8px 30px;
     border-radius: 40px;
     background: #fff;
-    margin-left: 4em;
+    margin-left: 2em;
     color: #2b1055;
     font-size: 1.2em;
     font-weight: bold;
@@ -686,7 +686,7 @@ header ul li a.active:hover {
   }
   .sec {
     position: relative;
-    padding: 100px;
+    padding: 2.7em;
     background: #1c0522
   }
   .sec h2 {
