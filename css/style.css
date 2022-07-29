@@ -47,6 +47,13 @@ header ul li a.active:hover {
   color: #efefef;
   font-weight: bold
 }
+.sec h2 {
+  display: inline;
+}
+.sec h3 {
+  display: inline;
+
+}
 @media all and ( min-width: 1440px )and ( max-width: 2561px ){
   header ul {
     display: flex;
@@ -150,6 +157,11 @@ header ul li a.active:hover {
     font-size: 3.5em;
     margin-bottom: 10px;
     color: #fff
+  }
+  .sec h3{
+    font-size: 2.3em;
+    margin-bottom: 10px;
+    color: #fff;
   }
   .sec p {
     font-size: 1.2em;
@@ -260,6 +272,11 @@ header ul li a.active:hover {
     margin-bottom: 10px;
     color: #fff
   }
+  .sec h3{
+    font-size: 2.3em;
+    margin-bottom: 10px;
+    color: #fff;
+  }
   .sec p {
     font-size: 1.2em;
     color: #fff
@@ -369,6 +386,13 @@ header ul li a.active:hover {
     margin-bottom: 10px;
     color: #fff
   }
+  .sec h3{
+    font-size: 2.3em;
+    margin-bottom: 10px;
+    color: #fff;
+    /*margin-left: 1em;*/
+
+  }
   .sec p {
     font-size: 1.2em;
     color: #fff
@@ -471,12 +495,17 @@ header ul li a.active:hover {
     background: #1c0522
   }
   .sec h2 {
-    font-size: 3.5em;
+    font-size: 3em;
     margin-bottom: 10px;
     color: #fff
   }
+  .sec h3{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #fff;
+  }
   .sec p {
-    font-size: 1.2em;
+    font-size: 1em;
     color: #fff
   }
 }
@@ -577,12 +606,17 @@ header ul li a.active:hover {
     background: #1c0522
   }
   .sec h2 {
-    font-size: 3.5em;
+    font-size: 3em;
     margin-bottom: 10px;
     color: #fff
   }
+  .sec h3{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #fff;
+  }
   .sec p {
-    font-size: 1.2em;
+    font-size: 1em;
     color: #fff
   }
 }
@@ -690,12 +724,17 @@ header ul li a.active:hover {
     background: #1c0522
   }
   .sec h2 {
-    font-size: 2.5em;
+    font-size: 2.6em;
     margin-bottom: 10px;
     color: #fff
   }
+  .sec h3{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #fff;
+  }
   .sec p {
-    font-size: 1.2em;
+    font-size: 0.9em;
     color: #fff
   }
 }
