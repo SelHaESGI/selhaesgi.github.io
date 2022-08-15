@@ -42,12 +42,17 @@ header ul li a:hover, header ul li a.active {
   color: #2b1055;
   font-weight: bold
 }
+.title_div{
+  /*block the overflow*/
+    overflow: hidden;
+}
 .title_img{
-  height: 8em;
   align-items: center;
-  padding-left: 1em;
-  padding-bottom: 1em;
-  padding-top: 1em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  object-fit: cover;
 }
 
 header ul li a.active:hover {
@@ -218,6 +223,10 @@ input[type=submit]:hover {
     font-size: 1.2em;
     color: #fff
   }
+
+  .title_img{
+    height: 5.5em;
+  }
 }
 @media all and ( min-width: 1281px )and ( max-width: 1440px ) {
   header ul {
@@ -332,6 +341,9 @@ input[type=submit]:hover {
     font-size: 1.2em;
     color: #fff
   }
+  .title_img{
+    height: 4.5em;
+  }
 }
 @media all and ( min-width: 1024px )and ( max-width: 1280px ) {
   .logo1 {
@@ -438,7 +450,7 @@ input[type=submit]:hover {
     color: #fff
   }
   .sec h3{
-    font-size: 2.3em;
+    font-size: 2em;
     margin-bottom: 10px;
     color: #fff;
     /*margin-left: 1em;*/
@@ -447,6 +459,9 @@ input[type=submit]:hover {
   .sec p {
     font-size: 1.2em;
     color: #fff
+  }
+  .title_img{
+    height: 4em;
   }
 }
 @media all and ( min-width: 768px )and ( max-width: 1024px ) {
@@ -551,13 +566,16 @@ input[type=submit]:hover {
     color: #fff
   }
   .sec h3{
-    font-size: 2em;
+    font-size: 1.7em;
     margin-bottom: 10px;
     color: #fff;
   }
   .sec p {
     font-size: 1em;
     color: #fff
+  }
+  .title_img{
+    height: 3em;
   }
 }
 @media all and ( min-width: 480px )and ( max-width: 768px ) {
@@ -590,6 +608,10 @@ input[type=submit]:hover {
     color: #fff;
     font-weight: bold;
     border-radius: 20px
+  }
+  .container{
+    margin-left: 1.2em;
+    margin-right: 1.2em;
   }
   section {
     position: relative;
@@ -662,13 +684,16 @@ input[type=submit]:hover {
     color: #fff
   }
   .sec h3{
-    font-size: 2em;
+    font-size: 1.4em;
     margin-bottom: 10px;
     color: #fff;
   }
   .sec p {
     font-size: 1em;
     color: #fff
+  }
+  .title_img{
+    height: 2.5em;
   }
 }
 @media all and ( min-width: 321px )and ( max-width: 480px ) {
@@ -707,6 +732,10 @@ input[type=submit]:hover {
     background: #2b1055;
     color: #fff;
     font-weight: bold
+  }
+  .container{
+    margin-left: 1em;
+    margin-right: 1em;
   }
   section {
     position: relative;
@@ -780,13 +809,16 @@ input[type=submit]:hover {
     color: #fff
   }
   .sec h3{
-    font-size: 1.5em;
+    font-size: 1.1em;
     margin-bottom: 10px;
     color: #fff;
   }
   .sec p {
     font-size: 0.9em;
     color: #fff
+  }
+  .title_img{
+    height: 2em;
   }
 }
 @media all and ( max-width: 320px ) {
@@ -826,6 +858,10 @@ input[type=submit]:hover {
     color: #fff;
     font-weight: bold
   }
+  .container{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
   section {
     position: relative;
     top: 0;
@@ -836,7 +872,7 @@ input[type=submit]:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden
+    overflow: hidden;
   }
   section::before {
     content: '';
@@ -900,9 +936,18 @@ input[type=submit]:hover {
     margin-bottom: 10px;
     color: #fff
   }
+    .sec h3{
+        font-size: .8em;
+        margin-bottom: 10px;
+        color: #fff;
+
+    }
   .sec p {
     font-size: 1.2em;
     color: #fff
+  }
+  .title_img{
+    height: 2em;
   }
 }
 @media screen and ( orientation:portrait ) {
